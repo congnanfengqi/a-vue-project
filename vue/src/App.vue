@@ -1,5 +1,8 @@
 <template>
-    <Tabbar></Tabbar>
+    <keep-alive exclude="[detail]">
+        <Tabbar></Tabbar>
+    </keep-alive>
+    
 
 
 </template>
